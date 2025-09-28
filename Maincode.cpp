@@ -16,44 +16,44 @@ float ab_Evaluator(int grade) {
     }
 
     else if (grade < 96 && grade > 93) {
-        return "Your grade is 1.25";
+        return 1.25;
     }
     
     else if (grade < 94 && grade > 91) {
-        return "Your grade is 1.50";
+        return 1.50;
     }
     
     else if (grade < 92 && grade > 89) {
-        return "Your grade is 1.75";
+        return 1.75;
     }
     
     else if (grade < 90 && grade > 87) {
-        return "Your grade is 2.00";
+        return 2.00;
     }
     
     else if (grade < 88 && grade > 85) {
-        return "Your grade is 2.25";
+        return 2.25;
     }
     
     else if (grade < 86 && grade > 83) {
-        return "Your grade is 2.50";
+        return 2.50;
     }
     
     else if (grade < 84 && grade > 81) {
-        return "Your grade is 2.75";
+        return 2.75;
     }
     
     else if (grade < 82 && grade > 79) {
-        return "Your grade is 3.00";
+        return 3.00;
     }
     
     else if (grade < 80) {
-        return "Your grade is 5.00";
+        return 5.00;
     }
     
     else {
-        return "???";
-    }
+        return 0;
+    };
     
 }
 
